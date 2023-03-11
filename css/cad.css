@@ -1,0 +1,41 @@
+body {
+    background-image: url("../img/cartaz-tela-cadastrar-produto.avif");
+}
+
+section {
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 5vh;
+    color: #fff;
+    align-items: center;
+    width: 30%;
+    background-color: #e7103b;
+
+    padding: 2%;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section input {
+    width: 90%;
+    padding: 2%;
+}
+
+section button#confirmar {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 30%;
+    padding: 2%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 2vh;
+}
+
+section button#confirmar:hover {
+    color: #e7103b;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
