@@ -431,14 +431,15 @@ div#amedigital h1:hover {
     cursor: pointer;
 }
 
-/*CARROSSEL - CORPO*/
+/*CARROSSÉIS - CORPO*/
 
 div.swiper-slide {
     padding: 0.7%;
 }
 
-div#botao-next, div#botao-prev {
-    top: 75%;
+div#botao-next, div#botao-prev,
+div#botao-next2, div#botao-prev2,
+div#botao-next4, div#botao-prev4 {
     padding: 2%;
     border-radius: 10vh;
     background-color: #fff;
@@ -446,25 +447,30 @@ div#botao-next, div#botao-prev {
     color: #e7103b;
 }
 
-div#botao-next:hover, div#botao-prev:hover, 
-div#botao-next2:hover, div#botao-prev2:hover {
-    opacity: 0.8; /*Deixar uma cor mais escura*/
+div#botao-next, div#botao-prev {
+    top: 75%;
 }
 
 div#botao-next2, div#botao-prev2 {
     top: 140%;
-    padding: 2%;
-    border-radius: 10vh;
-    background-color: #fff;
-    opacity: 0.5;
-    color: #e7103b;
 }
 
-div#botao-next, div#botao-next2 {
-    right: 0;
+div#botao-next4, div#botao-prev4 {
+    top: 436%;
 }
 
-div#botao-prev, div#botao-prev2 {
+div#botao-next:hover, div#botao-prev:hover, 
+div#botao-next2:hover, div#botao-prev2:hover,
+div#botao-next4:hover, div#botao-prev4:hover {
+    opacity: 0.8; /*Deixar uma cor mais escura*/
+}
+
+
+div#botao-next, div#botao-next2, div#botao-next4 {
+    right: 0;   
+}
+
+div#botao-prev, div#botao-prev2, div#botao-prev4 {
     left: 0;
 }
 
@@ -661,6 +667,17 @@ div#produto-promo {
     float: left;
     margin-right: 2%;
     margin-bottom: 2%;
+}
+
+div#cor-p7 {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 425%;
+}
+
+div#cor-p7 img {
+    max-width: 110px;
 }
 
 /*FOOTER - RODAPÉ*/

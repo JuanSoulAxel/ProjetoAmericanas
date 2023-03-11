@@ -113,7 +113,8 @@ var swiper = new Swiper(" .mySwiper", {
 /*CARROSSEL 2*/
 var swiper = new Swiper(" .mySwiper2", {
     slidesPerView: 10,
-    spaceBetween: 30,
+    spaceBetween: 10,
+    slidePerGroup: 1,
     loop: false,
     loopFillGroupWithBlank: false, //diferente do primeiro carrossel, esse eu não quero looping
     navigation: {
@@ -122,8 +123,21 @@ var swiper = new Swiper(" .mySwiper2", {
     }
 });
 
-/*DESABILITAR PREV AO CLICAR, POIS NÃO TERÁ MAIS PRA ONDE PASSAR*/
+/*CARROSSEL 4*/
+var swiper = new Swiper(" .mySwiper4", {
+    slidesPerView: 10,
+    spaceBetween: 10,
+    slidePerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: false, //diferente do primeiro carrossel, esse eu não quero looping
+    navigation: {
+        nextEl: ".swiper-button-next4", //passar
+        prevEl: ".swiper-button-prev4", //voltar
+    }
+});
 
+
+/*CARROSSEL 2 - DESABILITAR PREV AO CLICAR, POIS NÃO TERÁ MAIS PRA ONDE PASSAR*/
 $(".swiper-button-prev2").hide(); //botão voltar já vem desabilitado
 
 $(".swiper-button-next2").click(function() {
@@ -134,7 +148,6 @@ $(".swiper-button-prev2").click(function() {
     $(".swiper-button-prev2").hide();
     $(".swiper-button-next2").show();
 });
-
 
 /*MUDAR E RETORNAR IMAGEM AO PASSAR E TIRAR MOUSE*/
 function mudarImagem() {

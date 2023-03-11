@@ -336,59 +336,59 @@
             <img src="img/super-ofertas-com-entrega.webp" alt="">
         </div>
 
-        <div id="cor-p2-carrossel" class="swiper mySwiper2 container"> <!--CORPO PARTE 2-->
+        <div id="cor-p2-carrossel" class="swiper mySwiper2 container"> <!--CORPO PARTE 4-->
             <div id="carrossel-wrapper" class="swiper-wrapper content">
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card">
                     <div class="image">
                     <img src="img/corp4-qrcode.jpg" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-aproveite.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-entregarapdia.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-mercaaado.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-descontosprogressivos.webp" alt="">
                     </div> 
                 </div> 
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-obacupom.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card">
                     <div class="image">
                     <img src="img/corp4-aproveite2.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-ofertasdodia.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-nossasmarcas.webp" alt="">
                     </div>
                 </div>
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card">
                     <div class="image">
                     <img src="img/corp4-lojasoficiais.webp" alt="">
                     </div>
                 </div> 
-                <div id="cor-p4" class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
+                <div id="cor-p4" class="swiper-slide card"> 
                     <div class="image">
                     <img src="img/corp4-amedigital.webp" alt="">
                     </div>
@@ -471,7 +471,7 @@
             </div> <br> <br> 
             <div>
                 <?php
-                    $result = "SELECT * FROM produto_promo;"; //consultando o banco de dados
+                    $result = "SELECT * FROM produto_promo LIMIT 8;"; //consultando o banco de dados
                     $result = $pdo->prepare($result);
                     $result->execute();
 
@@ -498,6 +498,155 @@
                 ?>
             </div>
         </div>
+
+        <div id="cor-p7"> <!--CORPO PARTE 7-->
+            <div id="cor-p2-carrossel" class="swiper mySwiper4 container"> <!--CORPO PARTE 4-->
+                <div id="carrossel-wrapper" class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img3.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img2.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img3.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img4.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img5.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img6.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img7.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img8.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img9.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img10.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img11.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img12.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img13.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img14.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img15.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img16.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img17.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img18.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img19.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img20.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img21.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img22.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img23.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img24.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img25.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img26.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img27.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="image">
+                            <img src="img/corp7-img28.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao-next4" class="swiper-button-next4"> </div>
+        <div id="botao-prev4" class="swiper-button-prev4"> </div>
 
         <h1 id="h1ofertasmaispesquisadas">ofertas que você também precisa ver</h1> <!--CORPO PARTE 7-->
         <div id="ofertasmaispesquisadas">  
