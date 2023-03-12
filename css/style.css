@@ -633,6 +633,14 @@ img#estrelaspromo {
     max-height: 15px;
 }
 
+label#lblPrecoAntigo {
+    color: #555555;
+    font-size: 0.8em;
+    margin-left: 7%;
+    text-decoration: line-through;
+    float: left;
+}
+
 label#lblPreco {
     float: left;
     font-size: 1.2em;
@@ -678,6 +686,21 @@ div#cor-p7 {
 
 div#cor-p7 img {
     max-width: 110px;
+}
+
+div#cor-p8 {
+    display: flex;
+    padding: 1%;
+    margin-top: 90%;
+}
+
+div#cor-p8 img {
+    max-width: 615px;
+}
+
+div#cor-p9 {
+    margin-top: 1%;
+    padding: 0.7%;
 }
 
 /*FOOTER - RODAPÉ*/

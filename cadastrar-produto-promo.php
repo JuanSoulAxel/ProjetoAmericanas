@@ -22,11 +22,11 @@
             <p>Descrição:</p>
             <input name="descricao" type="text" maxlength="100" required>
 
-            <p>Preço:</p>
-            <input name="preco" type="text" maxlength="10" required>  
+            <p>Preço Final:</p>
+            <input name="preco_final" type="number" step="0.01" maxlength="10" required>  <!--O step permite pegar casas decimais-->
             
             <p>Porcentagem de Desconto:</p>
-            <input name="porcentagem" type="text" maxlength="2" required> %
+            <input name="porcentagem" type="number" maxlength="2" required> %
 
             <button id="confirmar">CONFIRMAR</button>
         </form>

@@ -478,6 +478,7 @@
                     while ($dados = $result->fetch(PDO::FETCH_ASSOC)) { //vai pegar todos os dados do banco e vai listar todos formando assim diversas divs com todos os produtos
                     
                     $imgProduto = "produtos-promocao/" . $dados['nome_produto']; //pegando o diretório da imagem do produto
+                    $preco_antigo_corrigido = str_replace('.', ',', $dados['preco_antigo']); //o banco salva com "." então, aqui vamos substituir por ","
                 ?>
                 <div id="produto-promo">
                     <div id="parte1promo">
@@ -489,6 +490,7 @@
                     <div id="parte3promo">
                         <p id="descProduto-promo"><?php echo $dados['descricao']; ?></p>
                         <img id="estrelaspromo" src="img/estrelas.webp" alt=""> <br> <br>
+                        <label id="lblPrecoAntigo">R$ <?php echo $preco_antigo_corrigido; ?></label> <br>
                         <label id="lblPreco">R$ <?php echo $dados['preco']; ?></label> <br> <br>
                         <p id="compix">com pix</p>
                     </div>
@@ -648,7 +650,17 @@
         <div id="botao-next4" class="swiper-button-next4"> </div>
         <div id="botao-prev4" class="swiper-button-prev4"> </div>
 
-        <h1 id="h1ofertasmaispesquisadas">ofertas que você também precisa ver</h1> <!--CORPO PARTE 7-->
+        <div id="cor-p8"> <!--CORPO PARTE 8-->
+           <img src="img/lojasoficiaismarcasqueridinhas.png">
+           <img src="img/samsumggalaxys21.png">
+        </div>
+
+        <div id="cor-p9"> <!--CORPO PARTE 9-->
+            <img src="img/comunicadoparaosclienteseparceiros.webp">
+        </div>
+    
+
+        <h1 id="h1ofertasmaispesquisadas">ofertas que você também precisa ver</h1> <!--CORPO PARTE 10-->
         <div id="ofertasmaispesquisadas">  
             <div>
                 <h2>iphone 13</h2>
