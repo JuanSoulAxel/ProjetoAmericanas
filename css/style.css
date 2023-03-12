@@ -125,11 +125,11 @@ div#p2-cep {
 }
 
 div#p2-cep img {
-    font-weight: bold;
-    max-width: 15px;
+    max-width: 19px;
 }
 
 div#p2-cep p {
+    padding-top: 2%;
     font-weight: bold;
     font-size: 0.85em;
 }
@@ -439,7 +439,12 @@ div.swiper-slide {
 div#botao-next, div#botao-prev,
 div#botao-next2, div#botao-prev2,
 div#botao-next3, div#botao-prev3,
-div#botao-next4, div#botao-prev4 {
+div#botao-next4, div#botao-prev4,
+div#botao-next5, div#botao-prev5,
+div#botao-next6, div#botao-prev6,
+div#botao-next7, div#botao-prev7,
+div#botao-next8, div#botao-prev8,
+div#botao-next9, div#botao-prev9 {
     padding: 2%;
     border-radius: 10vh;
     background-color: #fff;
@@ -463,10 +468,35 @@ div#botao-next4, div#botao-prev4 {
     top: 452%;
 }
 
+div#botao-next5, div#botao-prev5 {
+    top: 575%;
+}
+
+div#botao-next6, div#botao-prev6 {
+    top: 665%;
+}
+
+div#botao-next7, div#botao-prev7 {
+    top: 755%;
+}
+
+div#botao-next8, div#botao-prev8 {
+    top: 870%;
+}
+
+div#botao-next9, div#botao-prev9 {
+    top: 960%;
+}
+
 div#botao-next:hover, div#botao-prev:hover, 
 div#botao-next2:hover, div#botao-prev2:hover,
 div#botao-next3:hover, div#botao-prev3:hover,
-div#botao-next4:hover, div#botao-prev4:hover {
+div#botao-next4:hover, div#botao-prev4:hover,
+div#botao-next5:hover, div#botao-prev5:hover,
+div#botao-next6:hover, div#botao-prev6:hover,
+div#botao-next7:hover, div#botao-prev7:hover,
+div#botao-next8:hover, div#botao-prev8:hover,
+div#botao-next9:hover, div#botao-prev9:hover {
     opacity: 0.8; /*Deixar uma cor mais escura*/
 }
 
@@ -543,9 +573,25 @@ div#parte2item p#maisvistos-descricao {
     font-weight: bold;
 }
 
-div#parte2item label#preco {
+div#parte2item label#porcentagem2 {
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: rgb(18, 179, 18);
+    color: #fff;
+    padding: 2%;
+    border-radius: 10vh;
+}
+
+div#parte2item label#lblPrecoAntigo2 {
+    font-size: 1em;
+    margin-left: 2%;
+    text-decoration: line-through;
+}
+
+div#parte2item label#lblPreco2 {
+    margin-left: 2%;
     margin-top: 20%;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -822,6 +868,14 @@ div#rod-p5 img {
 }
 
 a#aCadProd {
+    color: #555555;
+    position: absolute;
+    left: 3%;
+    bottom: 15%;
+}
+
+a#aCadProd2 {
+    color: #555555;
     position: absolute;
     left: 3%;
     bottom: 5%;

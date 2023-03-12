@@ -252,8 +252,8 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     --swiper-navigation-size: 44px
 }
 
-.swiper-button-next, .swiper-button-next2, .swiper-button-next3, .swiper-button-next4,
-.swiper-button-prev, .swiper-button-prev2, .swiper-button-prev3, .swiper-button-prev4 {
+.swiper-button-next, .swiper-button-next2, .swiper-button-next3, .swiper-button-next4, .swiper-button-next-geral,
+.swiper-button-prev, .swiper-button-prev2, .swiper-button-prev3, .swiper-button-prev4, .swiper-button-prev-geral {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 50%);
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
@@ -267,27 +267,27 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     color: var(--swiper-navigation-color, var(--swiper-theme-color))
 }
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-next2.swiper-button-disabled, .swiper-button-next3.swiper-button-disabled, .swiper-button-next4.swiper-button-disabled,
-.swiper-button-prev.swiper-button-disabled, .swiper-button-prev2.swiper-button-disabled, .swiper-button-prev3.swiper-button-disabled, .swiper-button-prev4.swiper-button-disabled {
+.swiper-button-next.swiper-button-disabled, .swiper-button-next2.swiper-button-disabled, .swiper-button-next3.swiper-button-disabled, .swiper-button-next4.swiper-button-disabled, .swiper-button-next-geral.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled, .swiper-button-prev2.swiper-button-disabled, .swiper-button-prev3.swiper-button-disabled, .swiper-button-prev4.swiper-button-disabled, .swiper-button-prev-geral.swiper-button-disabled {
     opacity: .35;
     cursor: auto;
     pointer-events: none
 }
 
-.swiper-button-next.swiper-button-hidden, .swiper-button-next2.swiper-button-hidden, .swiper-button-next3.swiper-button-hidden, .swiper-button-next4.swiper-button-hidden,
-.swiper-button-prev.swiper-button-hidden, .swiper-button-prev2.swiper-button-hidden, .swiper-button-prev3.swiper-button-hidden, .swiper-button-prev4.swiper-button-hidden{
+.swiper-button-next.swiper-button-hidden, .swiper-button-next2.swiper-button-hidden, .swiper-button-next3.swiper-button-hidden, .swiper-button-next4.swiper-button-hidden, .swiper-button-next-geral.swiper-button-hidden,
+.swiper-button-prev.swiper-button-hidden, .swiper-button-prev2.swiper-button-hidden, .swiper-button-prev3.swiper-button-hidden, .swiper-button-prev4.swiper-button-hidden, .swiper-button-prev-geral.swiper-button-hidden {
     opacity: 0;
     cursor: auto;
     pointer-events: none
 }
 
-.swiper-navigation-disabled .swiper-button-next, .swiper-navigation-disabled .swiper-button-next2, .swiper-navigation-disabled .swiper-button-next3, .swiper-navigation-disabled .swiper-button-next4,
-.swiper-navigation-disabled .swiper-button-prev, .swiper-navigation-disabled .swiper-button-prev2, .swiper-navigation-disabled .swiper-button-prev3, .swiper-navigation-disabled .swiper-button-prev4 {
+.swiper-navigation-disabled .swiper-button-next, .swiper-navigation-disabled .swiper-button-next2, .swiper-navigation-disabled .swiper-button-next3, .swiper-navigation-disabled .swiper-button-next4, .swiper-navigation-disabled .swiper-button-next-geral,
+.swiper-navigation-disabled .swiper-button-prev, .swiper-navigation-disabled .swiper-button-prev2, .swiper-navigation-disabled .swiper-button-prev3, .swiper-navigation-disabled .swiper-button-prev4, .swiper-navigation-disabled .swiper-button-prev-geral {
     display: none !important
 }
 
-.swiper-button-next:after, .swiper-button-next2:after, .swiper-button-next3:after, .swiper-button-next4:after,
-.swiper-button-prev:after, .swiper-button-prev2:after, .swiper-button-prev3:after, .swiper-button-prev4:after {
+.swiper-button-next:after, .swiper-button-next2:after, .swiper-button-next3:after, .swiper-button-next4:after, .swiper-button-next-geral:after,
+.swiper-button-prev:after, .swiper-button-prev2:after, .swiper-button-prev3:after, .swiper-button-prev4:after, .swiper-button-prev-geral:after {
     font-family: swiper-icons;
     font-size: var(--swiper-navigation-size);
     text-transform: none !important;
@@ -296,25 +296,25 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     line-height: 1
 }
 
-.swiper-button-prev, .swiper-button-prev2, .swiper-button-prev3, .swiper-button-prev4,
-.swiper-rtl .swiper-button-next, .swiper-rtl .swiper-button-next2 , .swiper-rtl .swiper-button-next3, .swiper-rtl .swiper-button-next4{
+.swiper-button-prev, .swiper-button-prev2, .swiper-button-prev3, .swiper-button-prev4, .swiper-button-prev-geral,
+.swiper-rtl .swiper-button-next, .swiper-rtl .swiper-button-next2 , .swiper-rtl .swiper-button-next3, .swiper-rtl .swiper-button-next4, .swiper-rtl .swiper-button-next-geral {
     left: var(--swiper-navigation-sides-offset, 10px);
     right: auto
 }
 
-.swiper-button-prev:after, .swiper-button-prev2:after, .swiper-button-prev3:after, .swiper-button-prev4:after,
-.swiper-rtl .swiper-button-next:after, .swiper-rtl .swiper-button-next2:after, .swiper-rtl .swiper-button-next3:after, .swiper-button-next4:after {
+.swiper-button-prev:after, .swiper-button-prev2:after, .swiper-button-prev3:after, .swiper-button-prev4:after, .swiper-button-prev-geral:after,
+.swiper-rtl .swiper-button-next:after, .swiper-rtl .swiper-button-next2:after, .swiper-rtl .swiper-button-next3:after, .swiper-button-next4:after, .swiper-button-next-geral:after {
     content: 'prev'
 }
 
-.swiper-button-next, .swiper-button-next2, .swiper-button-next3, .swiper-button-next4,
-.swiper-rtl .swiper-button-prev, .swiper-rtl .swiper-button-prev2, .swiper-rtl .swiper-button-prev3, .swiper-rtl .swiper-button-prev4 {
+.swiper-button-next, .swiper-button-next2, .swiper-button-next3, .swiper-button-next4, .swiper-button-next-geral,
+.swiper-rtl .swiper-button-prev, .swiper-rtl .swiper-button-prev2, .swiper-rtl .swiper-button-prev3, .swiper-rtl .swiper-button-prev4, .swiper-rtl .swiper-button-prev-geral{
     right: var(--swiper-navigation-sides-offset, 10px);
     left: auto
 }
 
-.swiper-button-next:after,  .swiper-button-next2:after, .swiper-button-next3:after, .swiper-button-next4:after,
-.swiper-rtl .swiper-button-prev:after, .swiper-rtl .swiper-button-prev2:after, .swiper-rtl .swiper-button-prev3:after, .swiper-rtl .swiper-button-prev4:after {
+.swiper-button-next:after,  .swiper-button-next2:after, .swiper-button-next3:after, .swiper-button-next4:after, .swiper-button-next-geral:after,
+.swiper-rtl .swiper-button-prev:after, .swiper-rtl .swiper-button-prev2:after, .swiper-rtl .swiper-button-prev3:after, .swiper-rtl .swiper-button-prev4:after, .swiper-rtl .swiper-button-prev-geral:after {
     content: 'next'
 }
 

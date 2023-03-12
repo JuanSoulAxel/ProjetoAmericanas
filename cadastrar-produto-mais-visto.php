@@ -14,8 +14,8 @@
 </head>
 <body>
     <section>
-        <h1>CADASTRO DE PRODUTO EM PROMOÇÃO</h1>
-        <form class="cadastrarProduto" method="POST" action="php/foto-produto.php" enctype="multipart/form-data"> <!--O enctype avisa pro sistema que um arquivo está sendo enviado-->
+        <h1>CADASTRAR PRODUTO MAIS VISTO</h1>
+        <form class="cadastrarProduto2" method="POST" action="php/foto-produtos.php" enctype="multipart/form-data"> 
             <p>Produto:</p>
             <input type="file" name="produto" id="escolherProduto" required> <br> <br>
             
@@ -28,6 +28,20 @@
             <p>Porcentagem de Desconto:</p>
             <input name="porcentagem" type="number" maxlength="2" required> %
 
+            <p>Parcelas:</p>
+            <input name="parcelas" type="number"> x
+
+            <p>Deseja cadastrar em:</p>
+            <select name="tipo_produto" required>
+                <option selected disabled value="">Selecione</option>
+                <option value="maisvisto">Mais Visto</option>
+                <option value="maisvendido">Mais Vendido</option>
+                <option value="patrocinados">Patrocinados</option>
+                <option value="oquevoceviu">O Que Você Viu</option>
+                <option value="ofertas">Ofertas</option>
+                <option value="melhoresdescontos">Melhores Descontos</option>
+            </select>
+            
             <button id="confirmar">CONFIRMAR</button>
         </form>
     </section>

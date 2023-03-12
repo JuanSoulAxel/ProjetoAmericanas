@@ -137,7 +137,6 @@ var swiper = new Swiper(" .mySwiper3", {
     }
 });
 
-
 /*CARROSSEL 4*/
 var swiper = new Swiper(" .mySwiper4", {
     slidesPerView: 10,
@@ -151,6 +150,70 @@ var swiper = new Swiper(" .mySwiper4", {
     }
 });
 
+/*CARROSSEL 5*/
+var swiper = new Swiper(" .mySwiper5", {
+    slidesPerView: 5,
+    spaceBetween: 5,
+    slidePerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: false, 
+    navigation: {
+        nextEl: ".swiper-button-next5", 
+        prevEl: ".swiper-button-prev5",
+    }
+});
+
+/*CARROSSEL 6*/
+var swiper = new Swiper(" .mySwiper6", {
+    slidesPerView: 5,
+    spaceBetween: 5,
+    slidePerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: false, 
+    navigation: {
+        nextEl: ".swiper-button-next6", 
+        prevEl: ".swiper-button-prev6",
+    }
+});
+
+/*CARROSSEL 7*/
+var swiper = new Swiper(" .mySwiper7", {
+    slidesPerView: 5,
+    spaceBetween: 5,
+    slidePerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: false, 
+    navigation: {
+        nextEl: ".swiper-button-next7", 
+        prevEl: ".swiper-button-prev7",
+    }
+});
+
+/*CARROSSEL 8*/
+var swiper = new Swiper(" .mySwiper8", {
+    slidesPerView: 5,
+    spaceBetween: 5,
+    slidePerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: false, 
+    navigation: {
+        nextEl: ".swiper-button-next8", 
+        prevEl: ".swiper-button-prev8",
+    }
+});
+
+/*CARROSSEL 9*/
+var swiper = new Swiper(" .mySwiper9", {
+    slidesPerView: 5,
+    spaceBetween: 5,
+    slidePerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: false, 
+    navigation: {
+        nextEl: ".swiper-button-next9", 
+        prevEl: ".swiper-button-prev9",
+    }
+});
 
 /*CARROSSEL 2 - DESABILITAR PREV AO CLICAR, POIS NÃO TERÁ MAIS PRA ONDE PASSAR*/
 $(".swiper-button-prev2").hide(); //botão voltar já vem desabilitado
