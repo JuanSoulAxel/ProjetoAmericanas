@@ -157,7 +157,6 @@ nav#p2-menu ul li a {
     font-size: 0.83em;
     color: #fff;
     display: flex;
-
     text-align: center;
     align-items: center;
     color: rgb(255, 255, 255);
@@ -384,7 +383,7 @@ div#ofertasmaispesquisadas  {
     padding: 2%;
     width: 100%;
     position: absolute;
-    bottom: -460%;
+    bottom: -960%;
     display: flex;
 }
 
@@ -406,7 +405,7 @@ h1#h1ofertasmaispesquisadas {
     color: #555555;
     padding: 1%;
     position: absolute;
-    bottom: -430%;
+    bottom: -930%;
 }
 
 div#amedigital {
@@ -416,7 +415,7 @@ div#amedigital {
     display: flex;
     position: absolute;
     background-color: #fff;
-    bottom: -470%;
+    bottom: -970%;
 }
 
 div#amedigital h1 {
@@ -439,6 +438,7 @@ div.swiper-slide {
 
 div#botao-next, div#botao-prev,
 div#botao-next2, div#botao-prev2,
+div#botao-next3, div#botao-prev3,
 div#botao-next4, div#botao-prev4 {
     padding: 2%;
     border-radius: 10vh;
@@ -455,22 +455,26 @@ div#botao-next2, div#botao-prev2 {
     top: 140%;
 }
 
+div#botao-next3, div#botao-prev3 {
+    top: 205%;;
+}
+
 div#botao-next4, div#botao-prev4 {
-    top: 436%;
+    top: 452%;
 }
 
 div#botao-next:hover, div#botao-prev:hover, 
 div#botao-next2:hover, div#botao-prev2:hover,
+div#botao-next3:hover, div#botao-prev3:hover,
 div#botao-next4:hover, div#botao-prev4:hover {
     opacity: 0.8; /*Deixar uma cor mais escura*/
 }
 
-
-div#botao-next, div#botao-next2, div#botao-next4 {
+div#botao-next, div#botao-next2, div#botao-next3 div#botao-next4 {
     right: 0;   
 }
 
-div#botao-prev, div#botao-prev2, div#botao-prev4 {
+div#botao-prev, div#botao-prev2, div#botao-prev3, div#botao-prev4 {
     left: 0;
 }
 
@@ -490,81 +494,82 @@ div#cor-p5 {
     margin-top: 2%;
 }
 
-div#item {
-    float: left;
-}
-
 /*MAIS VISTOS - CORPO*/
 
-div#cor-p5 p#maisvistos-titulo {
-    margin-left: 1%;
+p#maisvistos-titulo, p#maisvendidos-titulo, p#produtospatrocinados-titulo, p#oquevoceviu-titulo, p#ofertasemalta-titulo, p#osmelhoresdescontos-titulo { /*o mais vendidos,produtos patrocinados, etc: são de outros cor-p*/
+    margin-top: 5%;
+    margin-left: 2%;
     color: #555555;
-    font-weight: bold;
     font-size: 1.5em;
+    font-weight: bold
 }
 
-div#cor-p5 p#maisvistos-descricao {
-    font-size: 0.9em;
+div#item {
+    border-radius: 10vh;
+    font-size: 0.8em;
+    width: 100%;
 }
 
-div#cor-p5 img {
-    margin-left: 20%;
-    padding: 2%;
-    max-width: 150px;
-}
-
-div#cor-p5 div p {
+div#item div#parte1item {
     text-align: center;
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    padding: 10%;
+    background-color: #fdfafa;
 }
 
-div#cor-p5 label#preco {
-    padding-left: 5%;
-    font-weight: bold;
-}
-
-p#maisvistos-descricao {
-    font-weight: bold;
-}
-
-div#cor-p5 div#item {
-    margin: 1%;
-    width: 18%;
-}
-
-div#parte1item {
-    height: 25vh ;
-    border-top-right-radius: 3vh;
-    border-top-left-radius: 3vh;
-    background-color: #dbd1d3;
-}
-
-div#parte1item img#teclado {
-    margin-top: 15%;
-}
-
-div#parte2item {
-    border-bottom-right-radius: 3vh;
-    border-bottom-left-radius: 3vh;
-    padding-top: 20%;
-    padding-bottom: 10%;
+div#item div#parte2item {
+    height: 40vh;
+    border-bottom-right-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+    padding: 5%;
     background-color: #fff;
 }
 
-
-div#cor-p4 div img {
-    max-width: 92px;
+div#item div#parte1item img {
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
 }
 
-img#estrelas {
-    left: 2%;
-    max-width: 25px;
-    max-height: 25px;
+div#item div#parte2item img {
+    max-width: 75px;
+}
+
+div#parte2item p#maisvistos-descricao {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div#parte2item label#preco {
+    margin-top: 20%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+div#parte2item p#maisvistos-descricao {
+    margin-top: 20%;
+}
+
+div#parte2item img#estrelas {
+    float: left;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+div#parte2item p#parcelamento {
+    color: #555555;
+    margin-top: 3%;
+    float: left;
 }
 
 /*ITENS PROMO - CORPO*/
 
 div#cor-p6 div#hms {
-        font-size: 2.5em;
+    font-size: 2.5em;
     color: #555555;
     display: flex;
     float: right;
@@ -681,7 +686,7 @@ div#cor-p7 {
     width: 100%;
     display: flex;
     position: absolute;
-    top: 425%;
+    top: 440%;
 }
 
 div#cor-p7 img {
@@ -703,11 +708,15 @@ div#cor-p9 {
     padding: 0.7%;
 }
 
+div#cor-p13 {
+    padding: 3% 1% 0%; 
+}
+
 /*FOOTER - RODAPÉ*/
 
 footer#rodape {
     position: absolute;
-    bottom: -500%;
+    bottom: -1000%;
     width: 100%;
     height: 30vh;
     background-color: #efe7e7;

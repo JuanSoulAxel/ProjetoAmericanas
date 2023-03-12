@@ -284,7 +284,7 @@
             <img src="img/baixe-o-app-e-aproveite.webp" alt="">
         </div>
         
-        <div id="cor-p2-carrossel" class="swiper mySwiper container"> <!--CORPO PARTE 2-->
+        <div class="swiper mySwiper container sumir-item"> <!--CORPO PARTE 2-->
             <div id="carrossel-wrapper" class="swiper-wrapper content">
                 <div class="swiper-slide card"> <!--As próximas 8 divs são os cartazes pra fazer o carrossel-->
                     <div class="image">
@@ -328,19 +328,19 @@
                 </div>
             </div>
         </div>
-        <div id="botao-next" class="swiper-button-next"> </div>
-        <div id="botao-prev" class="swiper-button-prev"> </div>
-        <div id="paginacao" class="swiper-pagination"> </div>
+        <div id="botao-next" class="swiper-button-next sumir-item"> </div>
+        <div id="botao-prev" class="swiper-button-prev sumir-item"> </div>
+        <div id="paginacao" class="swiper-pagination sumir-item"> </div>
 
         <div id="cor-p3"> <!--CORPO PARTE 3-->
             <img src="img/super-ofertas-com-entrega.webp" alt="">
         </div>
 
-        <div id="cor-p2-carrossel" class="swiper mySwiper2 container"> <!--CORPO PARTE 4-->
+        <div class="swiper mySwiper2 container sumir-item"> <!--CORPO PARTE 4-->
             <div id="carrossel-wrapper" class="swiper-wrapper content">
                 <div id="cor-p4" class="swiper-slide card">
                     <div class="image">
-                    <img src="img/corp4-qrcode.jpg" alt="">
+                        <img src="img/corp4-qrcode.jpg" alt="">
                     </div>
                 </div>
                 <div id="cor-p4" class="swiper-slide card"> 
@@ -397,65 +397,79 @@
         </div>
         <div id="botao-next2" class="swiper-button-next2"> </div>
         <div id="botao-prev2" class="swiper-button-prev2"> </div>
-
-        <div id="cor-p5"> <!--CORPO PARTE 5-->
-            <p id="maisvistos-titulo">produtos mais vistos na americanas</p>
-            <div id="item">
-                <div id="parte1item">
-                    <img src="img/maisvisto-televisao.png" alt="">
+ 
+        <p id="maisvistos-titulo">produtos mais vistos na americanas</p> <!--CORPO PARTE 5-->
+        <div id="cor-p5" class="swiper mySwiper3 container"> 
+            <div id="carrossel-wrapper" class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-televisao.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 56,00</label> 
+                            <p id="parcelamento">7x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="parte2item">
-                    <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
-                    <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br>
-                    <label id="preco">R$ 56,00</label> 
-                    <p>7x de R$ 105,27 sem juros no cartão de crédito</p>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 86,00</label> 
+                            <p id="parcelamento">4x de R$ 52,49 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="item">
-                <div id="parte1item">
-                    <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-motorola.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 1230,00</label> 
+                            <p id="parcelamento">5x de R$ 178,77 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="parte2item">
-                    <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
-                    <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br>
-                    <label id="preco">R$ 86,00</label> 
-                    <p>4x de R$ 52,49 sem juros no cartão de crédito</p>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-boxhp.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 150,00</label> 
+                            <p id="parcelamento">2x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="item">
-                <div id="parte1item">
-                    <img src="img/maisvisto-motorola.png" alt="">
-                </div>
-                <div id="parte2item">
-                    <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
-                    <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br>
-                    <label id="preco">R$ 1230,00</label> 
-                    <p>5x de R$ 178,77 sem juros no cartão de crédito</p>
-                </div>
-            </div>
-            <div id="item">
-                <div id="parte1item">
-                    <img src="img/maisvisto-boxhp.png" alt="">
-                </div>
-                <div id="parte2item">
-                    <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
-                    <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br>
-                    <label id="preco">R$ 150,00</label> 
-                    <p>2x de R$ 105,27 sem juros no cartão de crédito</p>
-                </div>
-            </div>
-            <div id="item">
-                <div id="parte1item">
-                    <img src="img/maisvisto-controletv.png" alt="">
-                </div>
-                <div id="parte2item">
-                    <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
-                    <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br>
-                    <label id="preco">R$ 26,00</label> 
-                    <p>2x de R$ 15,27 sem juros no cartão de crédito</p>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-controletv.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 26,00</label> 
+                            <p id="parcelamento">2x de R$ 15,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="botao-next3" class="swiper-button-next3"> </div>
+        <div id="botao-prev3" class="swiper-button-prev3"> </div>
 
         <div id="cor-p6"> <!--CORPO PARTE 6-->
             <div>
@@ -502,11 +516,11 @@
         </div>
 
         <div id="cor-p7"> <!--CORPO PARTE 7-->
-            <div id="cor-p2-carrossel" class="swiper mySwiper4 container"> <!--CORPO PARTE 4-->
+            <div class="swiper mySwiper4 container sumir-item"> <!--CORPO PARTE 4-->
                 <div id="carrossel-wrapper" class="swiper-wrapper content">
                     <div class="swiper-slide card">
                         <div class="image">
-                            <img src="img/corp7-img3.webp" alt="">
+                            <img src="img/corp7-img1.webp" alt="">
                         </div>
                     </div>
                     <div class="swiper-slide card">
@@ -658,9 +672,378 @@
         <div id="cor-p9"> <!--CORPO PARTE 9-->
             <img src="img/comunicadoparaosclienteseparceiros.webp">
         </div>
+
+        <p id="maisvendidos-titulo">os mais vendidos com desconto</p> <!--CORPO PARTE 10-->
+        <div id="cor-p5" class="swiper mySwiper3 container"> 
+            <div id="carrossel-wrapper" class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-televisao.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 56,00</label> 
+                            <p id="parcelamento">7x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 86,00</label> 
+                            <p id="parcelamento">4x de R$ 52,49 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-motorola.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 1230,00</label> 
+                            <p id="parcelamento">5x de R$ 178,77 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-boxhp.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 150,00</label> 
+                            <p id="parcelamento">2x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-controletv.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 26,00</label> 
+                            <p id="parcelamento">2x de R$ 15,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao-next3" class="swiper-button-next3"> </div>
+        <div id="botao-prev3" class="swiper-button-prev3"> </div>
+
+        <p id="produtospatrocinados-titulo">produtos patrocinados</p> <!--CORPO PARTE 11-->
+        <div id="cor-p5" class="swiper mySwiper3 container"> 
+            <div id="carrossel-wrapper" class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-televisao.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 56,00</label> 
+                            <p id="parcelamento">7x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 86,00</label> 
+                            <p id="parcelamento">4x de R$ 52,49 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-motorola.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 1230,00</label> 
+                            <p id="parcelamento">5x de R$ 178,77 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-boxhp.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 150,00</label> 
+                            <p id="parcelamento">2x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-controletv.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 26,00</label> 
+                            <p id="parcelamento">2x de R$ 15,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao-next3" class="swiper-button-next3"> </div>
+        <div id="botao-prev3" class="swiper-button-prev3"> </div>
+
+        <p id="oquevoceviu-titulo">o que você viu está aqui</p> <!--CORPO PARTE 12-->
+        <div id="cor-p5" class="swiper mySwiper3 container"> 
+            <div id="carrossel-wrapper" class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-televisao.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 56,00</label> 
+                            <p id="parcelamento">7x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 86,00</label> 
+                            <p id="parcelamento">4x de R$ 52,49 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-motorola.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 1230,00</label> 
+                            <p id="parcelamento">5x de R$ 178,77 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-boxhp.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 150,00</label> 
+                            <p id="parcelamento">2x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-controletv.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 26,00</label> 
+                            <p id="parcelamento">2x de R$ 15,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao-next3" class="swiper-button-next3"> </div>
+        <div id="botao-prev3" class="swiper-button-prev3"> </div>
+
+        <div id="cor-p13"> <!--CORPO PARTE 13-->
+            <img src="img/tudodesamsumg.webp" alt>
+        </div>
+
+        <p id="ofertasemalta-titulo">ofertas que estão em alta</p> <!--CORPO PARTE 14-->
+        <div id="cor-p5" class="swiper mySwiper3 container"> 
+            <div id="carrossel-wrapper" class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-televisao.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 56,00</label> 
+                            <p id="parcelamento">7x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 86,00</label> 
+                            <p id="parcelamento">4x de R$ 52,49 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-motorola.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 1230,00</label> 
+                            <p id="parcelamento">5x de R$ 178,77 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-boxhp.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 150,00</label> 
+                            <p id="parcelamento">2x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-controletv.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 26,00</label> 
+                            <p id="parcelamento">2x de R$ 15,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao-next3" class="swiper-button-next3"> </div>
+        <div id="botao-prev3" class="swiper-button-prev3"> </div>
+
+        <p id="osmelhoresdescontos-titulo">os melhores descontos em telefonia</p> <!--CORPO PARTE 15-->
+        <div id="cor-p5" class="swiper mySwiper3 container"> 
+            <div id="carrossel-wrapper" class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-televisao.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">monitor dell de 18,5'' e 1920h <br> 60hz antirreflexo preto</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 56,00</label> 
+                            <p id="parcelamento">7x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img id="teclado" src="img/maisvisto-teclado.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">teclado bluetooth logitech <br> k380 cinza</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt=""> <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 86,00</label> 
+                            <p id="parcelamento">4x de R$ 52,49 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-motorola.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao"> smartphone motorola e22 4g <br> wi-fi tela 6.5" dual</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 1230,00</label> 
+                            <p id="parcelamento">5x de R$ 178,77 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-boxhp.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Box de todos os livros do<br> arry Potter para fãs</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 150,00</label> 
+                            <p id="parcelamento">2x de R$ 105,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div id="item" class="image">
+                        <div id="parte1item">
+                            <img src="img/maisvisto-controletv.png" alt="">
+                        </div>
+                        <div id="parte2item">
+                            <p id="maisvistos-descricao">Controle de tv Philips <br> original novo</p> <br>
+                            <img id="estrelas" src="img/estrelas.webp" alt="">  <br> <br> <br> <br> <br>
+                            <label id="preco">R$ 26,00</label> 
+                            <p id="parcelamento">2x de R$ 15,27 sem juros no cartão de crédito</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao-next3" class="swiper-button-next3"> </div>
+        <div id="botao-prev3" class="swiper-button-prev3"> </div>
     
 
-        <h1 id="h1ofertasmaispesquisadas">ofertas que você também precisa ver</h1> <!--CORPO PARTE 10-->
+        <h1 id="h1ofertasmaispesquisadas">ofertas que você também precisa ver</h1> <!--CORPO PARTE 100-->
         <div id="ofertasmaispesquisadas">  
             <div>
                 <h2>iphone 13</h2>
