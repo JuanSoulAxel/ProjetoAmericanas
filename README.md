@@ -1,5 +1,5 @@
 # ProjetoAmericanas
 
-![SiteAmericanas1](https://user-images.githubusercontent.com/71825672/224224825-cf6b8119-902d-45d0-a156-23bde5985243.gif)
-![SiteAmericanas2](https://user-images.githubusercontent.com/71825672/224224832-1ecded32-8865-402a-b464-e1b58d145de6.gif)
-![SiteAmericanas3](https://user-images.githubusercontent.com/71825672/224224845-9c79edd9-6f15-4efa-aa75-f897befd4e27.gif)
+![ApresentandoSite-1](https://user-images.githubusercontent.com/71825672/224570516-6e07edf5-e768-4c2b-a03c-709171d4f0e4.gif)
+![ApresentandoSite-2](https://user-images.githubusercontent.com/71825672/224570521-20b473f3-2941-4604-bf68-fd23818e70f9.gif)
+![ApresentandoSite-3](https://user-images.githubusercontent.com/71825672/224570525-dd3080b0-330d-4005-9b48-e1f904dc7a42.gif)
